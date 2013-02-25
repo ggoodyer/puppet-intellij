@@ -1,23 +1,17 @@
-# Template Puppet Module for Boxen
+# Intellij Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install IntelliJ Version: 12.0.4 Build: 123.169 Released: February 14, 2013  .app into /Applications.
 
 ## Usage
 
-```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
-```
+Puppetfile:
+
+github "intellij",       "0.1.0", :repo => "ggoodyer/puppet-intellij"
+
+site.pp
+
+include intellij
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
