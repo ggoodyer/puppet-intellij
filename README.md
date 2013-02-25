@@ -1,6 +1,6 @@
 # Intellij Puppet Module for Boxen
 
-Install IntelliJ Version: 12.0.4 Build: 123.169 Released: February 14, 2013  .app into /Applications.
+Install IntelliJ Community Edition - Version: 12.0.4 Build: 123.169 Released: February 14, 2013  .app into /Applications.
 
 ## Usage
 
